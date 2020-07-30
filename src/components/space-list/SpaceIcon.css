@@ -1,0 +1,36 @@
+.space-icon-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+
+.space-icon-circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #55FF99;
+    cursor: pointer;
+}
+
+.space-icon-circle:hover {
+    animation-name: wobble;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes wobble {
+    0% {
+        border-radius: 50%;
+    }
+
+    50% {
+        border-radius: 25%;
+    }
+
+    100% {
+        border-radius: 40%;
+    }
+}
