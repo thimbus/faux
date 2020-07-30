@@ -1,6 +1,8 @@
 {
   "name": "faux",
   "version": "0.1.0",
+  "description": "mock designs in react",
+  "repository": "https://github.com/thimbus/faux.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
