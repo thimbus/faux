@@ -1,0 +1,46 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+.overlay-fadein {
+    animation-name: overlay-fadein;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  
+.overlay-fadeout {
+    animation-name: overlay-fadeout;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  
+@keyframes overlay-fadein {
+    from {
+      display: none;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.0);
+    }
+  
+    to {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.95);
+    }
+  }
+  
+@keyframes overlay-fadeout {
+    from {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.95);
+    }
+  
+    to {
+      display: none;
+      background-color: rgba(0,0,0,0.0);
+    }
+}
+  
