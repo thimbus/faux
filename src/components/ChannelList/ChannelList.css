@@ -1,0 +1,7 @@
+.channel-list-style {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 17vw;
+    background-color: rgb(59, 59, 59);
+}

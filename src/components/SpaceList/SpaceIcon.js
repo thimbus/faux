@@ -1,5 +1,5 @@
 import React from 'react';
-import Fade from '../overlay/Overlay';
+import Overlay from '../Overlay/Overlay';
 import './SpaceIcon.css';
 
 class SpaceIcon extends React.Component {
@@ -22,7 +22,7 @@ class SpaceIcon extends React.Component {
         return (
             <div onClick={this.unclick} className="space-icon-style">
                 <div onClick={this.click} className="space-icon-circle"></div>
-                { this.state.clicked ? <Fade fade="overlay-fadein" /> : <Fade fade="overlay-fadeout" /> }
+                { this.state.clicked ? <Overlay fade="overlay-fadein" /> : <Overlay fade="overlay-fadeout" /> }
             </div>
         )
     }

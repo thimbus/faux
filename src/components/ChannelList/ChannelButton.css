@@ -1,0 +1,13 @@
+.channel-button-style {
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 5px 8px 0 8px;
+    border-radius: 5px;
+}
+
+.channel-button-style:hover {
+    background-color: #333;
+    cursor: pointer;
+}
