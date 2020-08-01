@@ -1,0 +1,8 @@
+.chat-view-style {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    background-color: #434343;
+    overflow: auto;
+}

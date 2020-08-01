@@ -1,0 +1,10 @@
+.chat-message-style {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.chat-message-style:hover {
+    background-color: #3b3b3b;
+}

@@ -1,0 +1,6 @@
+.channel-view-style {
+    height: 100%;
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+}

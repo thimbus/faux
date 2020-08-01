@@ -1,4 +1,5 @@
 .space-icon-style {
+    /* to center them inside the space-list */
     display: flex;
     flex-direction: row;
     justify-content: space-around;

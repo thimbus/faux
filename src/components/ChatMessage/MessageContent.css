@@ -1,0 +1,13 @@
+.message-content-style {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-content-style > h4 {
+    margin: 0;
+}
+
+.message-content-style > p {
+    margin: 5px 0 0 0;
+}

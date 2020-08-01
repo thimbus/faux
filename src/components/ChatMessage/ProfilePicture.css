@@ -1,0 +1,19 @@
+.profile-picture-style {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    justify-content: space-around;
+}
+
+.profile-picture-style > img {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.profile-picture-style > img:hover {
+    cursor: pointer;
+}
