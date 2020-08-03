@@ -1,7 +1,7 @@
 .space-list-style {
     background-color: #333333;
     height: 100%;
-    width: 5vw;
+    width: 65px;
     display: flex;
     flex-direction: column;
 }
