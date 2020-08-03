@@ -4,7 +4,7 @@ import ChannelHeader from '../ChannelHeader/ChannelHeader';
 import ChatView from '../ChatView/ChatView';
 import MessageBar from '../MessageBar/MessageBar';
 
-class SpaceView extends React.Component {
+class ChannelView extends React.Component {
     render() {
         return (
             <div className="channel-view-style">
@@ -16,4 +16,4 @@ class SpaceView extends React.Component {
     }
 }
 
-export default SpaceView;
+export default ChannelView;
