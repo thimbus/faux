@@ -1,6 +1,6 @@
 .channel-view-style {
-    height: 100%;
-    width: 78vw;
     display: flex;
     flex-direction: column;
+    flex-grow: 1; /* fills remaining space */
+    height: 100%;
 }
