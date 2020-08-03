@@ -1,12 +1,12 @@
 import React from 'react';
-import './ChannelList.css';
+import './Sidebar.css';
 import ChannelButton from './ChannelButton';
 import SpaceBanner from '../SpaceBanner/SpaceBanner';
 
-class ChannelList extends React.Component {
+class Sidebar extends React.Component {
     render() {
         return (
-            <div className="channel-list-style">
+            <div className="sidebar-style">
                 <SpaceBanner />
                 <ChannelButton />
                 <ChannelButton />
@@ -16,4 +16,4 @@ class ChannelList extends React.Component {
     }
 }
 
-export default ChannelList;
+export default Sidebar;

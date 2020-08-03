@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 
 import SpaceList from './components/SpaceList/SpaceList';
-import ChannelList from './components/ChannelList/ChannelList';
+import Sidebar from './components/Sidebar/Sidebar';
 import ChannelView from './components/ChannelView/ChannelView';
 
 function App() {
   return (
     <div className="app-style">
       <SpaceList icons="3" />
-      <ChannelList />
+      <Sidebar />
       <ChannelView />
     </div>
   );
