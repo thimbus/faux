@@ -4,7 +4,9 @@ import './MessageBar.css';
 class MessageBar extends React.Component {
     render() {
         return (
-            <div contentEditable="true" className="message-bar-style" />
+            <div className="message-bar-style">
+                <div contentEditable="true" className="message-input-style"></div>
+            </div>
         )
     }
 }

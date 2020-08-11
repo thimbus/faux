@@ -1,6 +1,19 @@
 .message-bar-style {
-    background-color: #333333;
+    background-color: #434343;
     width: 100%;
     height: 10%;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: 1px solid #242424;
+}
+
+.message-input-style {
+    background-color: #555;
+    width: 90%;
+    height: 50%;
+    border-radius: 0.7em;
+    padding: 10px 1rem 0 1rem;
 }
