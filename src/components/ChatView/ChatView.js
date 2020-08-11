@@ -10,6 +10,14 @@ class ChatView extends React.Component {
                 <ChatMessage />
                 <ChatMessage />
                 <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
+                <ChatMessage />
             </div>
         )
     }
