@@ -8,6 +8,11 @@
     margin: 0;
 }
 
+.message-content-style > h5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .message-content-style > p {
     font-size: 0.9rem;
     margin: 5px 0 0 0;
